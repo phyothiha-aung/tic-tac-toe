@@ -1,0 +1,66 @@
+.t-board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.t-status {
+  margin-bottom: 10px;
+}
+
+.t-square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.X {
+  color: red;
+  font-weight: bold;
+}
+
+.O {
+  color: green;
+  font-weight: bold;
+}
+
+.t-restart, .t-arrow {
+  font-size: 15px;
+}
+
+.t-restart {
+  width: 70px;
+}
+
+.t-arrow {
+  width: 40px;
+}
+
+.t-square:focus {
+  outline: none;
+}
+
+.t-square:focus {
+  background: #ddd;
+}
+
+.t-game {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-game-board {
+  margin: 0 auto;
+}
